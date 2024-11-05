@@ -46,7 +46,7 @@ def cmd_password(message: Message):
 
 @bot.message_handler(commands=['help'])
 def cmd_help(message: Message):
-    bot.reply_to(message, 'Есть команды: /author, /coins, /password, /sulifa, /name, /riddle, /quote.')
+    bot.reply_to(message, 'Есть команды: /author, /coins, /password, /sulifa, /name, /riddle, /quote, /fact.')
 
 @bot.message_handler(commands=['name'])
 def cmd_name(message: Message):
